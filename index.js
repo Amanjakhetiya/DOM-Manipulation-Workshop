@@ -14,10 +14,10 @@
 // console.log(document.all[10])
 // document.all[10].style.backgroundColor="#cfcfcf" //Bad practice as it captures element using line number 
 
-//Difference between innerText, innerHTML and textContent
-// console.log(document.getElementById('navHead').textContent + " This is textContent")
-// console.log(document.getElementById('navHead').innerHTML +" This is innerHTML")
-// console.log(document.getElementById('navHead').innerText +" This is innerText")
+//Difference between , innerHTML and textContent
+
+ console.log(document.getElementById('navHead').innerHTML +" This is innerHTML")
+ console.log(document.getElementById('navHead').innerText +" This is innerText")
 
 
 //Capturing HTML elements
